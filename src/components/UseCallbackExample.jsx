@@ -1,5 +1,5 @@
 import React, {useCallback, useState} from 'react';
-
+// Only if you have performance issues
 const Button = React.memo(({addTask}) => {
         return <div>
             <button className={'btn btn-primary btn-md'} onClick={() => addTask()}>Add Task</button>
