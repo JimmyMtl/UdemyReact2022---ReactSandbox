@@ -25,7 +25,7 @@ const UseMemoExample = () => {
                    onChange={(e) => setNumber(e.target.value)}/>
             <h2 className="my-3">The sqrt of {number} is {sqrt}</h2>
             <button className={'btn btn-primary'} onClick={onClick}>Re render</button>
-            <h3>{renders.current}</h3>
+            <h3>Renders: {renders.current}</h3>
         </div>
     );
 };
