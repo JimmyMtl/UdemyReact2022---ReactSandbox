@@ -28,7 +28,7 @@ const CustomHookExample2 = () => {
                 <button type={'submit'} className={'btn btn-primary'}>Submit</button>
             </form>
             <hr className={'my-3'}/>
-            {tasks.map((task) => (<h3 key={task.date}>{task.task}</h3>))}
+            {tasks.map((task,key) => (<h3 key={key}>{task.task}</h3>))}
         </>
     );
 };
